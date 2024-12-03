@@ -1,4 +1,6 @@
-import sys; import os; sys.path.append(os.getcwd())
+import sys
+import os
+sys.path.append(os.getcwd())
 
 from distributor import fair_sharer
 import pytest
