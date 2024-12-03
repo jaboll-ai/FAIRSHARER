@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.getcwd())
 
-from distributor import fair_sharer
+from src.distributor import fair_sharer
 import pytest
 
 @pytest.mark.parametrize("values, num_iterations, result", [
